@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <css src="Magepow_Featured::css/featuredpro.css"/>
+        <css src="Magepow_Featured::css/featuredinnerpro.css"/>
+        <css src="Magepow_Featured::css/slick.css"/>
+        <css src="Magepow_Featured::css/slick.less"/>
+
+
+
+    </head>
+
+
+
+    <referenceContainer name="content">
+        <block class="Magepow\Featured\Block\Index"
+               name="featuredproduct_index_index"
+               template="Magepow_Featured::widget.phtml" />
+    </referenceContainer>
+</page>
